@@ -166,7 +166,7 @@ def heatmap_vs_XAI(jacobian_matrix,
         ax.tick_params(axis='both', which='major', direction='in', length=5, width=1,labelsize=12)
         ax.tick_params(axis='x', direction='in', top=True)
         ax.tick_params(axis='y', direction='in', right=True)
-        ax.xaxis.minorticks_on()
+        ax.minorticks_on()
         ax.tick_params(axis='x', which='minor', direction='in', length=3, width=1)
         ax.tick_params(axis='x', which='minor', direction='in', top=True)
     
@@ -292,7 +292,7 @@ def compare_IC_ML(jacobian_matrix,
     ax.tick_params(axis='both', which='major', direction='in', length=6, width=1,labelsize=13)
     ax.tick_params(axis='x', direction='in', top=True)
     ax.tick_params(axis='y', direction='in', right=True)
-    ax.xaxis.minorticks_on()
+    ax.minorticks_on()
     ax.tick_params(axis='both', which='minor', direction='in', length=3.5, width=1)
     ax.tick_params(axis='x', which='minor', direction='in', top=True)
     ax.tick_params(axis='y', which='minor', direction='in', right=True)
@@ -734,7 +734,7 @@ def partial_heatmap(jacobian_matrix,
     ax.tick_params(axis='both', which='major', direction='in', length=5, width=1,labelsize=12)
     ax.tick_params(axis='x', direction='in', top=True)
     ax.tick_params(axis='y', direction='in', right=True)
-    ax.xaxis.minorticks_on()
+    ax.minorticks_on()
     ax.tick_params(axis='x', which='minor', direction='in', length=3, width=1)
     ax.tick_params(axis='x', which='minor', direction='in', top=True)
 
