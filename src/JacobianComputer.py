@@ -2,7 +2,7 @@
 import os
 import numpy as np
 import pandas as pd
-from JacobianVisualizer import partial_heatmap
+from .JacobianVisualizer import partial_heatmap
 import importlib
 
 def compute_jacobian(dataset, 

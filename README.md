@@ -1,3 +1,5 @@
+> ⚠️ This repository is a work in progress
+
 # feature-importance-xai-ic
 Attain a global view of your grid with spectral feature importance using eXplainable AI (XAI), and a local view of your grid using information content (IC). Train a CNN on spectral grid, compute SHAP values, and compute model sensitivity with IC, and compare the difference with useful visualizations. This project was featured in a poster at the 2025 STScI Towards the Habitable Worlds Observatory Symposium: 
 
